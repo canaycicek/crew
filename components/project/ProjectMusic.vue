@@ -7,7 +7,7 @@
     <div class="d-flex align-items-center">
       <img
         width="30"
-        :src="$router.options.base + 'images/' + music.image"
+        :src="this.basePath + +'images/' + music.image"
         class="me-3"
       />
       <div>{{ music.name }}</div>
@@ -25,6 +25,10 @@ export default {
     },
     active: {
       type: Boolean,
+      required: true,
+    },
+    basePath: {
+      type: String,
       required: true,
     },
   },

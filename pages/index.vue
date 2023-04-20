@@ -56,8 +56,8 @@
                   :style="{
                     backgroundImage:
                       'url(' +
-                      $router.options.base +
-                      'images/' +
+                      this.basePath +
+                      '/images/' +
                       activeMusic.image +
                       ')',
                     width: '180px',
@@ -213,6 +213,7 @@
                     activeIndex === musicIndex &&
                     activeProjectIndex === projectIndex
                   "
+                  :basePath="basePath"
                 />
               </div>
             </div>
@@ -298,6 +299,8 @@ export default {
       showMoreSocial: false,
       socialMediaAccounts,
       contactInfo,
+      basePath:
+        "https://raw.githubusercontent.com/canaycicek/crew.storage/master",
     };
   },
   computed: {
@@ -367,7 +370,7 @@ export default {
     },
     updateSound() {
       let audio = this.$refs.audio;
-      audio.src = "audio/" + this.activeMusic.music;
+      audio.src = this.basePath + "/audio/" + this.activeMusic.music;
       audio.load();
       audio.addEventListener("canplaythrough", (event) => {
         this.activeDuration = audio.duration;
