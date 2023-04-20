@@ -5,7 +5,11 @@
     @click="$emit('click')"
   >
     <div class="d-flex align-items-center">
-      <img width="30" :src="'/images/' + music.image" class="me-3" />
+      <img
+        width="30"
+        :src="$router.options.base + 'images/' + music.image"
+        class="me-3"
+      />
       <div>{{ music.name }}</div>
     </div>
     <!-- <font-awesome-icon :icon="['fas', 'pause']" v-if="active" />

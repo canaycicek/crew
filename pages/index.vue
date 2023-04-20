@@ -54,7 +54,12 @@
               >
                 <div
                   :style="{
-                    backgroundImage: 'url(/images/' + activeMusic.image + ')',
+                    backgroundImage:
+                      'url(' +
+                      $router.options.base +
+                      'images/' +
+                      activeMusic.image +
+                      ')',
                     width: '180px',
                     height: '180px',
                   }"
@@ -464,6 +469,7 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import "../node_modules/@fortawesome/fontawesome-svg-core/styles.css";
 :root {
   --primary-color: #80ff00;
   --secondary-color: #202020;
