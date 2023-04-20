@@ -7,7 +7,7 @@
     <div class="d-flex align-items-center">
       <img
         width="30"
-        :src="this.basePath + +'images/' + music.image"
+        :src="this.basePath + '/images/' + music.image"
         class="me-3"
       />
       <div>{{ music.name }}</div>
