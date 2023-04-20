@@ -269,7 +269,6 @@
   </div>
 </template>
 <script>
-import projectDatas from "../data/projects.json";
 import socialMediaAccounts from "../data/social.json";
 import contactInfo from "../data/contact.json";
 import LanguageSwitcher from "../components/LanguageSwitcher.vue";
@@ -278,7 +277,7 @@ export default {
   components: { LanguageSwitcher },
   data() {
     return {
-      projects: projectDatas,
+      projects: [],
       activeMusic: {
         image: "default-project-image.png",
         music: "fear.mp3",
@@ -302,6 +301,12 @@ export default {
       basePath:
         "https://raw.githubusercontent.com/canaycicek/crew.storage/master",
     };
+  },
+  async created() {
+    const projectData = await this.$axios.$get(
+      this.basePath + "/data/projects.json"
+    );
+    this.projects = projectData;
   },
   computed: {
     activeTime: {
