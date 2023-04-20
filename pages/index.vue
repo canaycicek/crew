@@ -274,6 +274,15 @@ import contactInfo from "../data/contact.json";
 import LanguageSwitcher from "../components/LanguageSwitcher.vue";
 
 export default {
+  head() {
+    return {
+      bodyAttrs: {
+        style: this.activeMusic.color
+          ? "--primary-color:" + this.activeMusic.color
+          : "",
+      },
+    };
+  },
   components: { LanguageSwitcher },
   data() {
     return {
@@ -494,6 +503,11 @@ body {
   color: white;
 }
 
+* {
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out,
+    border 0.2s ease-in-out;
+}
+
 #main > div:not(:last-child) {
   margin-bottom: 8rem !important;
 }
@@ -684,6 +698,7 @@ a:has(svg[data-icon="tiktok"]).bg {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  transition: all 0.5s;
 }
 .music-image.not-selected {
   box-shadow: 1px 1px 3px var(--primary-color);
