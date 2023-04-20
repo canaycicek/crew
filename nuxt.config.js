@@ -79,6 +79,10 @@ export default {
     }
   },
 
+  router: {
+    base: '/crew/'
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
