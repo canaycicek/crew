@@ -321,7 +321,6 @@ export default {
       let domain = new URL(url);
       domain = domain.hostname;
       domain = domain.replace("www.", "");
-      console.log({ domain });
       return domain;
     },
     getName(url) {
@@ -337,7 +336,6 @@ export default {
       ).icon;
     },
     toggleSound(target = null) {
-      console.log("toggle sound");
       let audio = this.$refs.audio;
 
       if (target) {
@@ -353,10 +351,8 @@ export default {
       }
 
       if (audio.paused) {
-        console.log("play it");
         audio.play();
       } else {
-        console.log("pause it");
         audio.pause();
       }
     },
@@ -374,7 +370,6 @@ export default {
       audio.src = "audio/" + this.activeMusic.music;
       audio.load();
       audio.addEventListener("canplaythrough", (event) => {
-        console.log({ audio: audio.duration });
         this.activeDuration = audio.duration;
         this.activeDurationClock = this.secondsToClock(audio.duration);
         audio.addEventListener("timeupdate", (event) => {
