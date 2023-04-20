@@ -1,0 +1,27 @@
+[
+	{
+		"title": "Trap",
+		"musics": [
+			{
+				"name": "Fear",
+				"image": "fear.png",
+				"music": "fear.mp3",
+				"social": [
+					"https://www.facebook.com/TrapMusicHD",
+					"https://www.youtube.com/user/TrapMusicHD",
+					"https://soundcloud.com/trapmusichd",
+					"https://instagram.com/trapmusichd/",
+					"https://spotify.com/user/trapmusichd",
+					"https://music.apple.com/us/album/rumors/1228181589?i=1228181732",
+					"https://tiktok.com/@trapmusichd",
+					"https://deezer.com/artist/1228181589"
+				]
+			},
+			{
+				"name": "Forever",
+				"image": "forever.png",
+				"music": "forever.mp3"
+			}
+		]
+	}
+]

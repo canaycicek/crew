@@ -1,0 +1,72 @@
+[
+	{
+		"domains": [
+			"instagram.com"
+		],
+		"name": "Instagram",
+		"icon": "instagram",
+		"mine": "https://www.instagram.com/prodby.crew/"
+	},
+	{
+		"domains": [
+			"youtube.com",
+			"music.youtube.com",
+			"youtu.be"
+		],
+		"name": "Youtube",
+		"icon": "youtube",
+		"mine": ""
+	},
+	{
+		"domains": [
+			"facebook.com"
+		],
+		"name": "Facebook",
+		"icon": "facebook",
+		"mine": ""
+	},
+	{
+		"domains": [
+			"soundcloud.com"
+		],
+		"name": "Soundcloud",
+		"icon": "soundcloud",
+		"mine": ""
+	},
+	{
+		"domains": [
+			"spotify.com",
+			"open.spotify.com"
+		],
+		"name": "Spotify",
+		"icon": "spotify",
+		"mine": ""
+	},
+	{
+		"domains": [
+			"apple.com",
+			"music.apple.com"
+		],
+		"name": "Apple Music",
+		"icon": "apple",
+		"mine": ""
+	},
+	{
+		"domains": [
+			"deezer.page.link",
+			"deezer.com"
+		],
+		"name": "Deezer",
+		"icon": "deezer",
+		"mine": ""
+	},
+	{
+		"domains": [
+			"tiktok.com",
+			"vm.tiktok.com"
+		],
+		"name": "Tiktok",
+		"icon": "tiktok",
+		"mine": ""
+	}
+]
