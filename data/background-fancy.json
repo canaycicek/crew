@@ -1,0 +1,60 @@
+[
+	{
+		"content": "FL Studio",
+		"style": {
+			"left": "20px",
+			"top": "20px",
+			"transform": "rotate(320deg)",
+			"font-size": "2rem"
+		}
+	},
+	{
+		"content": "Crew",
+		"style": {
+			"left": "20px",
+			"bottom": "50px",
+			"transform": "rotate(60deg)",
+			"font-size": "2.5rem"
+		}
+	},
+	{
+		"content": "Beat",
+		"style": {
+			"left": "220px",
+			"bottom": "20px",
+			"transform": "rotate(20deg)",
+			"font-size": "2.5rem"
+		}
+	},
+	{
+		"content": "Sample",
+		"style": {
+			"left": "120px",
+			"bottom": "120px",
+			"transform": "rotate(20deg)",
+			"font-size": "1.5rem"
+		}
+	},
+	{
+		"content": "Can Ayçiçek",
+		"style": {
+			"bottom": "170px",
+			"font-size": "2rem",
+			"right": "220px",
+			"rotate": "50deg"
+		}
+	},
+	{
+		"type": "icon",
+		"style": {
+			"left": "120px",
+			"bottom": "120px",
+			"transform": "rotate(20deg)",
+			"font-size": "1.5rem"
+		},
+		"content": [
+			"fas",
+			"music"
+		]
+	}
+]

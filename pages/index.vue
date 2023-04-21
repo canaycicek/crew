@@ -2,11 +2,23 @@
   <div id="main">
     <div class="row w-100 p-5 secondary top m-0">
       <div class="fancy">
-        <h3 class="primary-text">FL Studio</h3>
-        <h3 class="primary-text">Crew</h3>
-        <h3 class="primary-text">Beat</h3>
-        <h3 class="primary-text">Sample</h3>
-        <h3 class="primary-text">Can Ayçiçek</h3>
+        <template v-for="(fancyItem, fancyItemKey) in backgroundFancy">
+          <font-awesome-icon
+            :key="fancyItemKey"
+            :icon="fancyItem.content"
+            v-if="fancyItem.type == 'icon'"
+            class="fancy-item"
+            :style="fancyItem.style"
+          />
+          <h3
+            v-else
+            :key="fancyItemKey"
+            class="primary-text"
+            :style="fancyItem.style"
+          >
+            {{ fancyItem.content }}
+          </h3>
+        </template>
       </div>
       <div
         class="col-lg-4 col-12 d-flex justify-content-center align-items-center"
@@ -272,6 +284,7 @@
 import socialMediaAccounts from "../data/social.json";
 import contactInfo from "../data/contact.json";
 import LanguageSwitcher from "../components/LanguageSwitcher.vue";
+import backgroundFancy from "../data/background-fancy.json";
 
 export default {
   head() {
@@ -287,6 +300,7 @@ export default {
   data() {
     return {
       projects: [],
+      backgroundFancy,
       activeMusic: {
         image: "default-project-image.png",
         music: "fear.mp3",
@@ -779,37 +793,9 @@ footer .subtitle {
   opacity: 0.1;
 }
 
-.fancy *:nth-child(1) {
-  top: 20px;
-  left: 20px;
-  rotate: 320deg;
-}
-.fancy *:nth-child(2) {
-  left: 20px;
-  bottom: 50px;
-  rotate: 60deg;
-  font-size: 2.5rem;
-}
-
-.fancy *:nth-child(3) {
-  right: 40px;
-  top: 150px;
-  rotate: 210deg;
-  font-size: 4.5rem;
-}
-
-.fancy *:nth-child(4) {
-  left: 120px;
-  bottom: 120px;
-  rotate: 20deg;
-  font-size: 1.5rem;
-}
-
-.fancy *:nth-child(5) {
-  right: 220px;
-  bottom: 170px;
-  rotate: 50deg;
-  font-size: 2rem;
+.fancy svg {
+  fill: white;
+  opacity: 0.1;
 }
 
 ::-webkit-scrollbar {
