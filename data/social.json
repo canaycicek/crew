@@ -15,7 +15,7 @@
 		],
 		"name": "Youtube",
 		"icon": "youtube",
-		"mine": ""
+		"mine": "https://www.youtube.com/@prodbycrew"
 	},
 	{
 		"domains": [
@@ -23,7 +23,7 @@
 		],
 		"name": "Facebook",
 		"icon": "facebook",
-		"mine": ""
+		"mine": "https://www.facebook.com/prodby.crew/"
 	},
 	{
 		"domains": [
@@ -31,7 +31,7 @@
 		],
 		"name": "Soundcloud",
 		"icon": "soundcloud",
-		"mine": ""
+		"mine": "https://soundcloud.com/can-aycicek-381972648"
 	},
 	{
 		"domains": [
@@ -67,6 +67,6 @@
 		],
 		"name": "Tiktok",
 		"icon": "tiktok",
-		"mine": ""
+		"mine": "https://www.tiktok.com/@prodby.crew"
 	}
 ]
