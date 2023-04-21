@@ -795,7 +795,7 @@ footer .subtitle {
 
 .fancy svg {
   fill: white;
-  opacity: 0.1;
+  opacity: 0.3;
 }
 
 ::-webkit-scrollbar {
