@@ -190,7 +190,7 @@
 			"left": "387px",
 			"bottom": "33px",
 			"transform": "rotate(316deg)",
-			"width": "5.5rem"
+			"font-size": "5.5rem"
 		},
 		"content": [
 			"fas",
@@ -203,7 +203,7 @@
 			"left": "730px",
 			"bottom": "61px",
 			"transform": "rotate(26deg)",
-			"width": "3.5rem"
+			"font-size": "3.5rem"
 		},
 		"content": [
 			"far",
@@ -216,7 +216,7 @@
 			"left": "1007px",
 			"bottom": "67px",
 			"transform": "rotate(29deg)",
-			"width": "3.5rem"
+			"font-size": "3.5rem"
 		},
 		"content": [
 			"fas",
@@ -229,7 +229,7 @@
 			"left": "655px",
 			"bottom": "288px",
 			"transform": "rotate(25deg)",
-			"width": "5.5rem"
+			"font-size": "5.5rem"
 		},
 		"content": [
 			"fab",
@@ -242,7 +242,7 @@
 			"left": "156px",
 			"bottom": "100px",
 			"transform": "rotate(324deg)",
-			"width": "5.5rem"
+			"font-size": "5.5rem"
 		},
 		"content": [
 			"fas",
@@ -255,7 +255,7 @@
 			"right": "12px",
 			"bottom": "100px",
 			"transform": "rotate(206deg)",
-			"width": "5.5rem"
+			"font-size": "5.5rem"
 		},
 		"content": [
 			"fas",
@@ -268,7 +268,7 @@
 			"right": "253px",
 			"bottom": "128px",
 			"transform": "rotate(149deg)",
-			"width": "3.5rem"
+			"font-size": "3.5rem"
 		},
 		"content": [
 			"fas",
@@ -281,7 +281,7 @@
 			"left": "368px",
 			"top": "-42px",
 			"transform": "rotate(277deg)",
-			"width": "6.5rem"
+			"font-size": "6.5rem"
 		},
 		"content": [
 			"fas",
