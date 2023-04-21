@@ -515,6 +515,7 @@ export default {
 body {
   background-color: #121212;
   color: white;
+  overflow-x: hidden;
 }
 
 * {
